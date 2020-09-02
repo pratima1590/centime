@@ -1,0 +1,5 @@
+Class SubClass
+{
+  private String name;
+  //get,set
+  }
