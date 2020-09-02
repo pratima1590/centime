@@ -1,0 +1,17 @@
+@RestController
+@RequestMapping("/centime")
+public class APIController
+{
+ @Autowired
+ Connection connection;
+ public ApiCOntroller(Connection connection){
+  this.connection=connection;
+  }
+  
+  @GetMapping(produces="application/json")
+  public ResponseEntity<List<MainCLass>>getId(@RequestParam(required=true) int id)
+  {
+    List<MainCLass> listResponse=connetion.connect(id);
+    return ResponseEntity.ok(listResponse)
+    }
+    }
