@@ -1,0 +1,6 @@
+Class MainClass
+{
+ private String name;
+ private List<SubClass> subClass;
+ //Getter and setter
+ }
