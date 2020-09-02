@@ -1,0 +1,7 @@
+Class Color
+{
+private int id;
+private int parentId;
+private String name;
+private String color;
+}
